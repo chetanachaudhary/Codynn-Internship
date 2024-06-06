@@ -1,6 +1,7 @@
 import React from 'react';
 import heroImage from './HeroImage.png';
 import notFound from './404.png';
+import star from './star.png';
 
 const Heropage: React.FC = () => {
     return <>
@@ -14,6 +15,14 @@ const Heropage: React.FC = () => {
                 />
 
             </div>
+            <div className='absolute ml-[1000px] mt-40'>
+                <img
+                    src={star}
+                    className=" h-28 w-28"
+                    alt=""
+                />
+
+            </div>
             <div className='flex justify-center mt-28'>
                 <img
                     src={heroImage}
@@ -21,6 +30,7 @@ const Heropage: React.FC = () => {
                     alt=""
                 />
             </div>
+         
         
         <div className='mt-7 font-sans'>
             <div className='flex justify-center text-4xl  items-center gap-1 mb-1.5 '><span className='font-bold mr-2'>Oops,</span>  Challenges did’t load.</div>
