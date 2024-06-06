@@ -10,7 +10,7 @@ type Props = {}
 export default function Footer({ }: Props) {
     return (
         <footer className="bg-[#272727] border-y font-sans text-base">
-            <div className="mx-auto w-full max-w-full p-4 py-5 lg:py-8">
+            <div className="mx-auto w-full max-w-full p-4 py-5 lg:py-3">
                 <div className="md:flex md:justify-between border-[1px] border-r-0 border-l-0 border-t-0  border-[#ffffff] ">
                     <div className=" flex items-center justify-center ml-8  mb-6 md:mb-0 ">
                         <div className=" p-2">
@@ -78,7 +78,7 @@ export default function Footer({ }: Props) {
                                             <img
                                                 src={arrow}
                                                 className="ml-1 mb-1 h-[16.67px] w-[16.67px]"
-                                                alt="Logo"
+                                                alt=""
                                             /></div></div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ export default function Footer({ }: Props) {
                                             <img
                                                 src={downArrow}
                                                 className="ml-1 mb-1 h-[16.67px] w-[16.67px]"
-                                                alt="Logo"
+                                                alt=""
                                             /></div></div>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ export default function Footer({ }: Props) {
                 <img
                                                 src={Codynn}
                                                 className=" mb-1 h-[171px] w-[899px]"
-                                                alt="Logo"
+                                                alt=""
                                             />
                 </div>
                 <div className=' flex ml-[815px] items-center  '>

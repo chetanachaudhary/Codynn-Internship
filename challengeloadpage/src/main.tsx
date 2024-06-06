@@ -4,13 +4,14 @@ import App from './App.tsx'
 import './index.css'
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from 'react-router-dom'
 import Layout from './Layout.tsx'
+import Heropage from './components/Herosection/Heropage.tsx'
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
-    {/* //   <Route path='' element={<GetStartedPage/>}></Route>
-    //   <Route path='Questiondetails' element={<Questiondetails/>}></Route> */}
+      <Route path='' element={<Heropage/>}></Route>
+   
 
       
     </Route>
