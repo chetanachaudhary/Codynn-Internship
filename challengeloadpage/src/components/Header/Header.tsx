@@ -4,10 +4,11 @@ import Logo from './codynn_Logo.png';
 import Avatar from './Avatar.png';
 
 
+
 const Header: React.FC = () => {
     return <>
-        <header className="sticky z-50 top-[32px]">
-            <nav className="bg-white  px-4 lg:px-2 py-1">
+        <header className=" pt-[34px]  bg-[#EDEDED]">
+            <nav className="bg-[#EDEDED] px-4 lg:px-2 py-1">
                 <div className="flex flex-wrap justify-between items-center mx-16 max-w-screen-xl">
                     <Link to="/" className="flex items-center  mt-1 ">
                         <img
